@@ -1,3 +1,4 @@
-import sys
+print("hello world")
 
-print(aaa)
+name = raw_input()
+print 'hello', name
