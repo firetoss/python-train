@@ -11,7 +11,12 @@ print d.get('a')
 
 d['s'] = 4
 
+print '====================='
+t = (5,)
+d[t] = 5
+
 print d
+print '====================='
 
 # 遍历方法
 for key in d:
