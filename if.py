@@ -13,6 +13,7 @@ elif age >= 6:
 else:
     print 'kid'
 
+# 只要v是非零数值、非空字符串、非空list等，就判断为True，否则为False。
 v = [1]
 if v:
     print True
